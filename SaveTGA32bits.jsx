@@ -124,8 +124,8 @@ if (orgLayerSet!=doc.layers[0]) {
 
 
     //刪除Alpha與墊底圖層
-    //doc.channels.removeAll();
-    //doc.activeLayer.remove();
+    doc.channels.removeAll();
+    doc.activeLayer.remove();
 }
 
 //官方Photoshop CS6 JavaScript Reference
